@@ -20,4 +20,10 @@ public void checkstr()
 	
 
 }
+ @Test
+    public void testWordNotInString() {
+        String sentence = "hello world";
+        assertFalse(sentence.contains("hello"));
+    }
+    
 }
