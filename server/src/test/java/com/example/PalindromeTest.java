@@ -28,7 +28,7 @@ public void checkstr()
 @Test
     public void changed_testWordNotInString() {
         String sentence = "hello world";
-        assertFalse(sentence.contains("hello"));
+        assertFalse(sentence.contains("hdsau"));
     }
     
 
