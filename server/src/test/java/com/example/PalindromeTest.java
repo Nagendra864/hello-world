@@ -21,7 +21,7 @@ public void checkstr()
 
 }
  @Test
-    public void testWordNotInString() {
+    public void changed_testWordNotInString() {
         String sentence = "hello world";
         assertFalse(sentence.contains("123"));
     }
