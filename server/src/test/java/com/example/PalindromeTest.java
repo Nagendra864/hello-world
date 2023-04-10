@@ -23,7 +23,7 @@ public void checkstr()
  @Test
     public void changed_testWordNotInString() {
         String sentence = "hello world";
-        assertFalse(sentence.contains("123"));
+        assertFalse(sentence.contains("1234"));
     }
     
 }
