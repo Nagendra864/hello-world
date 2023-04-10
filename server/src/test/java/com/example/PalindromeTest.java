@@ -25,5 +25,12 @@ public void checkstr()
         String sentence = "hello world";
         assertFalse(sentence.contains("1234"));
     }
+@Test
+    public void changed_testWordNotInString() {
+        String sentence = "hello world";
+        assertFalse(sentence.contains("hello"));
+    }
+    
+
     
 }
